@@ -1,4 +1,6 @@
-.box1 {
+/*relative */
+
+/* .box1 {
 	width: 100px;
 	height: 100px;
 	background-color: red;
@@ -11,9 +13,11 @@
 	width: 100px;
 	height: 100px;
 	background-color: blue;
-  }
+  } */
+
+
 /*Контекст наложения */
-  /* .box1 {
+/* .box1 {
 	width: 100px;
 	height: 100px;
 	background-color: red;
@@ -28,4 +32,67 @@
 	margin-top: -50px; 
 	position: relative;
 	z-index: 1; 
+  } */
+
+/*absolute */
+/* .relative-parent {
+	width: 200px;
+	height: 200px;
+	background-color: lightgray;
+	position: relative;
+}
+
+.absolute-child {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+} */
+
+/*fixed*/
+/* .fixed-box {
+	position: fixed;
+	top: 20px;
+	right: 30px;
+	width: 200px;
+	height: 100px;
+	background-color: lightgreen;
+  }
+  .content {
+	height: 2000px;
+  } */
+
+/*sticky*/
+/* .content {
+	height: 2000px;
+	background-color: lightblue;
+	padding: 50px;
+  }
+  .sticky-box {
+	position: sticky;
+	top: 20px;
+	background-color: yellow;
+	padding: 20px;
+	width: 100%;
+  } */
+
+
+
+/*sticky-2*/
+  /* .container {
+	height: 300px;
+	overflow-y: scroll; 
+	border: 1px solid black;
+  }
+  .content {
+	height: 1000px;
+	padding: 10px;
+  }
+  .sticky-element {
+	position: sticky;
+	top: 20px; 
+	background-color: yellow;
+	padding: 10px;
   } */

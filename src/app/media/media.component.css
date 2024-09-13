@@ -1,0 +1,51 @@
+/* Изменение стилей в зависимости от ширины экрана  */
+div {
+	background-color: lightblue;
+	font-size: 18px;
+  }
+  
+ 
+  @media (max-width: 768px) {
+	div {
+	  background-color: lightcoral;
+	  font-size: 16px;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	div {
+	  background-color: lightgreen;
+	  font-size: 14px;
+	}
+  }
+
+/* Изменение стилей в зависимости от ориентации экрана */
+/* Стили для портретной(вертикальной) ориентации */
+/* @media (orientation: portrait) {
+	div {
+	  background-color: lightyellow;
+	  font-size: 18px;
+	}
+  }
+   */
+  /* Стили для пейзажной(горизонтальной) ориентации */
+  /* @media (orientation: landscape) {
+	div {
+	  background-color: lightblue;
+	  font-size: 22px;
+	}
+  } */
+
+  /* Комбинирование условий */
+  
+  /* @media (max-width: 768px) and (orientation: portrait) {
+	div {
+	  background-color: lightpink;
+	  font-size: 16px;
+	}
+  } */
+  
+
+
+
+  

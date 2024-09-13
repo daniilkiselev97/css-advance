@@ -1,0 +1,8 @@
+button[data-action="save"] {
+	background-color: green;
+	color: white;
+}
+
+button[data-id="123"] {
+	border: 2px solid blue;
+}
